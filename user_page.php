@@ -34,7 +34,7 @@ if (!$_SESSION["UserID"]){
 
 setTimeout(function() {
   //your code to be executed after 1 second
-  window.location.href='home_admin.php';
+  window.location.href='home_user.php';
 }, delayInMilliseconds);
 </script>
 </body>
