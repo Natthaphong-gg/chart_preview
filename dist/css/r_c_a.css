@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css?family=Kanit|thai saraban|Pridi|Taviraj|Maitree|thai sans lite|Chakra Petch";
+
+div.n {
+  color: red;
+}
+
+div.a {
+  color: green;
+}
+
+div.r {
+  color: #b9a239;
+}
+
+.dataTables_filter {
+  float: left !important;
+  font-family: "Kanit", sans-serif;
+  font-weight: 50;
+}
+
+#dataTables_filter th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: right;
+  background-color: #0c1b84;
+  color: white;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 50;
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: right;
+}
+
+.A {
+  text-align: left;
+  color: black;
+  font-family: "Kanit", sans-serif;
+}
+
+.table-responsive {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}

@@ -1,0 +1,97 @@
+div.n {
+  color: red;
+}
+
+div.a {
+  color: green;
+}
+
+.dataTables_filter {
+  /* float: left !important; */
+  width: auto;
+}
+
+@import "https://fonts.googleapis.com/css?family=Kanit|Itim|Pridi|Taviraj|Maitree|Thai Sans Lite|prompt";
+
+.dataTables_filter {
+  float: right !important;
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: left !important;
+  margin-left: 20px;
+  font-family: "Kanit", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .dataTables_filter {
+    float: left !important;
+    margin-left: 20px;
+    font-family: "Kanit", sans-serif;
+  }
+}
+
+#dataTables_filter {
+  font-family: "Kanit", sans-serif;
+  /*border-collapse: collapse;*/
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  #dataTables_filter {
+    font-family: "Kanit", sans-serif;
+    /*border-collapse: collapse;*/
+    width: auto;
+  }
+}
+
+#dataTables_filter td,
+#dataTables_filter th {
+  padding: 8px;
+  font-family: "Kanit", sans-serif;
+}
+
+#dataTables_filter tr:nth-child(even) {
+  background-color: #fff;
+}
+
+#dataTables_filter tr:hover {
+  background-color: #ddd;
+}
+
+#dataTables_filter th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: right;
+  background-color: #dd5a58;
+  color: white;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+.cusrow {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+.A {
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+
+.table-responsive {
+  width: auto;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #6cf;
+  margin: 0;
+  padding: 0;
+}
